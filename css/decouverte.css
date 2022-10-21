@@ -1,0 +1,708 @@
+.bodytwo{
+    margin:50px 0px 0px  0px;
+}
+.gridone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+}
+.block1{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+}
+.grid-item{
+    height:350px;  
+}
+.salaire{
+    display:flex;
+    position:absolute;
+    top: 141px;
+    left: 20px;
+}
+.salaire img{
+    width:3em;
+    height:3em;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-right:15px;
+}
+.dollar{
+    position: relative;
+}
+.salaire p{
+    position:absolute;
+  
+    color:white;
+    font-size:16px;
+    font-weight:600;
+}
+.card-top1{
+    background-image: url("https://www.tastingtable.com/img/gallery/tips-you-need-when-cooking-with-lemon/l-intro-1658781981.jpg");
+    height:180px;
+    background-size:cover;
+    position:relative;
+
+}
+.card-top2{
+    height:180px;
+    background-size:cover;
+    position:relative;
+    background-image: url("https://roadbikeaction.com/wp-content/uploads/2022/09/snek-cycling-merino-pocket-tee-shirt-5075-450x300.jpg");
+}
+.card-top3{
+    height:180px;
+    background-size:cover;
+    position:relative;
+    background-image: url("https://www.voileetmoteur.com/wp/wp-content/uploads/2020/07/peche-bar-en-ete-morbihan-623x415.png");
+}
+.card-top4{
+    height:180px;
+    background-size:cover;
+    position:relative;
+    background-image:url("https://www.planete-running.fr/wp-content/uploads/2020/12/planete-parrainnage-groupe.jpg");
+}
+.card-top5{
+    background-image: url("https://www.lesdomainesquimontent.com/ogi/upload/images/wine-791133-1920.jpg");
+    height:180px;
+    background-size:cover;
+    position:relative;
+}
+.card-top6{
+    background-image:url("https://image.shutterstock.com/image-photo/peaceful-women-relax-group-yoga-260nw-1845961462.jpg");
+    height:180px;
+    background-size:cover;
+    position:relative;
+}
+.card-top7{
+    background-image:url("https://www.triumphboats.com/wp-content/uploads/2022/02/19-Boat-Party-Sailing-Outfit-Ideas.jpg");
+    height:180px;
+    background-size:cover;
+    position:relative;
+}
+.card-top8{
+    background-image:url("https://people.epfl.ch/private/common/photos/links/305683.jpg?ts=1664257198");
+    height:180px;
+    background-size:cover;
+    position:relative;
+}
+
+article{
+    text-align: center;
+}
+article span{
+    color:#00e5ff
+}
+article p{
+    color:grey;
+    font-size:14px;
+}
+/*----hebregement----*/
+.hebergement{   
+    margin:20px 0px 40px  0px;
+   }   
+.btn-reve {
+    margin:15px 15px 25px 15px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    cursor:pointer;
+    width:200px;
+    height:30px;
+    color:#7e57c2;
+    font-size:10px;
+    font-weight:700;
+    background-color:white;
+    border-radius:25px;
+    border:1px solid #7e57c2;
+  
+}
+.reve h1{
+    color:#7e57c2;
+    font-size:19px;
+    font-weight:500;
+    text-transform: uppercase;
+    letter-spacing:2px;
+}
+.blockreve1{
+    display:flex;   
+    justify-content: center;
+    align-items: center;
+}
+.block2{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+}
+.gridtwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.gridfive{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+.block5{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+    height:250px;
+    opacity:0.8;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-image:linear-gradient(0deg, rgba(141, 140, 141, 0.3), rgba(150, 148, 149, 0.3)),url("https://www.entreprise-et-droit.com/wp-content/uploads/2022/07/lefil.com_.jpg");
+} 
+.gridel52{
+    padding-left:20px;
+    width:40%;
+  
+     font-size:22px;
+   
+}
+.gridfour{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block4{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:20px;
+   
+}
+.gridel1{
+    background-image:url("https://image.shutterstock.com/image-photo/beautiful-young-couple-love-walking-260nw-1445163971.jpg");
+    background-size: cover;
+    height:180px;
+    display: flex;
+    align-items: flex-end;
+  
+   
+}
+.gridel2{
+    background-image:url("https://teletravailadomicile.com/wp-content/uploads/2021/01/meilleurs-livres-pour-gagner-de-largent.jpg");
+    background-size: cover;
+    height:180px;
+    display: flex;
+    align-items: flex-end;
+}
+.grid-elgratuit{
+    background-color: #7e57c2;
+}
+.arrow1{ 
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:#f44336 ;
+    width:100%;
+    height:45px;
+}
+.arrow2{
+    width:100%;
+    height:45px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color:  aqua;
+}
+.txtar{
+    margin-left: 15px;
+    margin-right:60px;
+    font-size: 17px;
+    font-weight: 500;
+    color:white
+}
+.arrow1 .fa{
+    color:white
+}
+.arrow2 .fa{
+    color:white
+}
+.grid-elgratuit{
+    background-image:linear-gradient(0deg, rgba(0,255,182, 0.3),rgba(29,233,182, 0.6)), url("https://i-sam.unimedias.fr/2022/04/28/mourir-de-rire.jpeg?auto=format,compress&cs=tinysrgb");
+    background-size: cover;
+}
+.grid-elgratuit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.gratuite h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight:300;
+    color:white;
+}
+.gratuite span{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:white;
+    font-weight:bold;
+    font-size:36px;
+}
+.gratuite{
+   text-align:center ;
+   white-space: normal;
+}
+.btn-heber{
+    margin:10px 15px 10px 45px;
+    text-transform: uppercase;
+    cursor:pointer;
+    width:170px;
+    height:30px;
+    font-size:11px;
+    font-weight:600;
+    background-color:#ffc400;
+    border-radius:25px;
+    border:none;
+}
+.block3{
+    width:90%;
+    display:grid;
+    grid-template-columns: 40% auto;
+  
+}
+.gridthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:20px;
+    margin-top:20px;
+    margin-left: 30px;
+}
+.el1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color:#7e57c2;
+  
+    
+}
+.el1 h4{
+    color:white;
+    font-weight:300;
+   
+}
+.el1 span{
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight:600;
+    letter-spacing: 2px;
+}
+.btn-duf{
+    
+    text-transform: uppercase;
+    cursor:pointer;
+    width:170px;
+    height:30px;
+    font-size:11px;
+    font-weight:600;
+    background-color:white;
+    border-radius:25px;
+    border:none;
+    color:#7e57c2;
+}
+.el2{
+   
+    padding-left:35px;
+    padding-right:66px;
+    color:white;
+    font-weight:300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(0deg,#7e57c2,transparent ),url("https://p0.pikist.com/photos/604/785/manipulation-romantic-couple-love-sunset-ocean-birds.jpg");
+    background-size: cover;    
+
+}
+
+/*revenue-----------*/
+.revenue{
+    margin: 0px 10px;
+   
+}
+.elements
+{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:0px;
+}
+.elements2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap:0px;
+}
+.pht1{
+    background-image: url("https://img.freepik.com/free-photo/sports-couple-riding-bikes-summer-forest_1157-35273.jpg");
+    height:400px;  
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.pht4{
+    background-image:url("https://a.cdn-hotels.com/gdcs/production57/d1823/756d9f39-5aef-4974-a09b-4c8beed78e66.jpg?impolicy=fcrop&w=800&h=533&q=medium");
+    background-size:cover;
+    background-repeat:no-repeat;
+    height:400px;
+}
+.pht1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pth2{
+    display: flex;
+  
+    justify-content:center;
+    align-items: center;
+}
+.pht2{
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    margin-top:30px; 
+    padding-right:117px;
+}
+.pht3{
+    flex-direction:column;
+    display:flex;
+    align-items: center;
+    margin-top:30px; 
+    padding-right:117px;
+   
+}
+.gagner{
+    display: flex;
+    flex-direction: column;
+}
+
+.faite{
+    display: flex;
+    flex-direction: column;
+}
+.gan1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.gan1f {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.ft1z{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gan2{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    padding-left:19%;
+}
+.ft2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:19%;
+}
+
+
+.cerl1{
+        height:40px; 
+		width: 40px; 
+		background-color: #4527a0;
+		border-radius: 50%; 
+        display:flex;
+       align-items: center;
+       justify-content: center;
+       margin-right: 8px;
+}
+.cerl1f{
+    height:40px; 
+		width: 40px; 
+		background-color: #1de9b6;
+		border-radius: 50%; 
+        display:flex;
+       align-items: center;
+       justify-content: center;
+       margin-right: 8px;
+}
+.cerl11{
+    height:40px; 
+    width: 40px; 
+    background-color:#ff5252;
+    border-radius: 50%; 
+    display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 8px;
+}
+.cerl112{
+    height:40px; 
+    width: 40px; 
+    background-color:#ffc400;
+    border-radius: 50%; 
+    display:flex;
+   align-items: center;
+   justify-content: center;
+   margin-right: 8px;
+}
+.cerl1 p{
+    color:white;
+    font-size:20px;
+}
+.ft1 h3{
+    text-transform: uppercase;
+    color:#ff5252;
+    font-weight:600;
+    width: 300px;
+}
+.ft1z h3{
+    text-transform: uppercase;
+    color:#ffc400;
+    font-weight:600;
+    width: 300px;
+}
+
+.gan1 h3{
+    text-transform: uppercase;
+    color:#4527a0;
+    font-weight:600;
+    width: 300px;
+}
+.gan1f h3{
+    text-transform: uppercase;
+    color:#1de9b6;
+    font-weight:600;
+    width: 300px;
+}
+.ft2 p{
+    color:#424242;
+   
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.gan2 p{
+    color:#424242;
+   
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.ft2{
+    position:relative
+}
+.gan2{
+    position:relative
+}
+.pht5{
+    background-color: #ffc400;
+    display:flex;
+    justify-content: space-around;
+}
+.courriel{
+    display:flex;
+    align-items: center;
+  
+}
+.gan2 .txtgn{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.inpt-courriel{
+    background-color: #1de9b6;
+    display: flex;
+    color:gray;
+    font-size:16px;
+    height:30px;
+}
+.input-kl:focus{
+  outline:none;
+
+}
+.inpt-courriel ::placeholder{
+    color:gray;
+}
+.input-kl{
+    align-items: center;
+    border:none;
+    cursor:pointer;
+    font-size:16px; 
+    width: 220px;
+}
+.btn-souscrire{
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 88px;
+    height: 30px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #00bfa5;
+    border-color: transparent
+}
+.txtins span{
+  color:#00bfa5;
+  font-size:28px;
+  font-weight:500;
+}
+.txtins{
+    font-size:24px;
+    font-weight:400;
+}
+/*****footer*****/
+ .footer{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    background-color:  #7e57c2;
+    padding-top: 3%;
+    padding-left:10%;
+    padding-bottom:8%;
+   
+ }
+ .flexcontent{
+    width:90%;
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+   
+ }
+
+ .titl{
+    color:white;
+    font-weight:600;
+    font-size:15px;
+    
+ }
+ .lctlist li{
+    list-style-type:none;
+    color:white;
+    font-size:12px;
+ }
+ .lctlist ul {
+    padding:0px;
+ }
+ .msg{
+    display: flex;
+    align-items: center;
+ }
+  .flexcontent p{
+    color:white;
+    font-size:12px;
+    font-weight: 300;
+  }
+.icons{
+    display:flex;
+}
+.divcrcl{
+    height: 25px;
+    width: 25px;
+    background-color: #7e57c2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid #00bfa5;
+    margin-right: 2%;
+}
+.linkedin p{
+    color:white;
+    font-weight:600;
+    font-size:15px;
+}
+.droit{
+    background-color:#5e35b1 ;
+    padding-left: 10%;
+}
+.droit p{
+    color:white;
+    font-size:12px;
+    font-weight:lighter;
+}
+.end{
+    display:flex;
+    flex-direction: column;
+}
+
+@media  screen and (max-width:750px){
+    .pht5{
+        flex-direction: column;
+    }
+    .txtins {
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .txtins span {
+        color: #00bfa5;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+
+
+@media  screen and (max-width:950px) {
+    .pht2{
+        padding-left:20px;
+        margin-top:0px;
+        padding-right:0px;
+        
+    }
+    .pht3{
+        padding-left:20px;
+        margin-top:0px;
+        padding-right:0px;
+    }
+   
+  
+
+}
+@media  screen and (max-width:1074px){
+    .gan h3{
+        width:250px;
+    }
+    .add h3{
+        width:250px;
+    }
+}
+
+@media  screen and (max-width:400px) {
+    .pht2{
+        padding-left:40px;
+        margin-top:0px;
+        padding-right:0px;
+    }
+    .pht3{
+        padding-left:40px;
+        margin-top:0px;
+        padding-right:0px; 
+    }
+
+}
+
+

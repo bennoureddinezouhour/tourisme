@@ -1,0 +1,273 @@
+body{
+    height:100% !important;
+   
+}
+.container-exp{
+    background-color:#e0e0e0;   
+    height:70px;
+    margin:0px 10px;
+    padding-top:1px;
+    padding-bottom:7px;   
+}
+
+
+.list{
+    display:flex;
+    margin-left:200px;
+    margin-right:50px;
+}
+.list  .cl-grey {
+    list-style-type: none;
+    padding:10px 10px ;
+    width:145px;
+    height:25px;
+    
+}
+.list  .cl-grey1 {
+    list-style-type: none;
+    padding:10px 10px ;
+    width:145px;
+    height:25px;   
+}
+.cl-grey1{
+    display:flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    align-items: center;
+    border-style: solid;
+     border-color: #e0e0e0;
+     padding:10px 15px;
+     border-width:1px 0px 1px 1px ;
+   }
+.list .filtre{
+    list-style-type: none;
+    padding:10px 10px ;
+    width:145px;
+    height:25px;
+}
+.list .inp-rchr{
+    list-style-type: none;
+    padding:10px 10px ;
+    width:145px;
+    height:25px;
+}
+ul li p{
+    color:#424242;
+    font-size: 13px;
+    font-weight:500;  
+   
+}
+.cl-grey{
+ display:flex;
+ justify-content: space-between;
+ background-color: #f5f5f5;
+ align-items: center;
+ border-style: solid;
+  border-color: #e0e0e0;
+  padding:10px 15px;
+  border-width:1px 0px 1px 1px ;
+}
+.inp-rchr{
+    background-color: #1de9b6;
+    display: flex;
+    color:white;
+    font-size:16px;
+   
+   
+}
+.inp-rchr :focus{
+  outline:none
+}
+.inp-rchr ::placeholder{
+    color:white;
+    font-size:16px;
+}
+
+.input-cl{
+    align-items: center;
+    border:none;
+    background-color:transparent;
+    cursor:pointer;
+    color:white;
+    font-size:16px;    
+}
+
+.filtre{
+    display: flex;
+    align-items:center;
+    
+}
+.filtre p{
+    font-size: 11px;
+    font-weight: 600;
+    margin-right:10px;
+}
+.espace{
+    margin: 0px 10px;
+    padding:0; 
+}
+.monde{
+    background-image:linear-gradient(0deg, rgba(141, 140, 141, 0.3), rgba(150, 148, 149, 0.3)),url("https://media.blogto.com/articles/20211210-niagara-falls-ontario.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:100vh;
+    text-transform: uppercase;
+    display:flex;
+    position:relative;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cntr{
+    position:absolute;   
+}
+.decouvrir{
+    color:white;
+    font-size:30px;
+    letter-spacing:2px;
+    font-weight: 500;
+}
+.buttoncentred{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-inscription{
+    text-transform: uppercase;
+    letter-spacing:2px;
+    cursor:pointer;
+    width:170px;
+    height:30px;
+    color:white;
+    font-size:12px;
+    font-weight:600;
+    background-color:#1de9b6;
+    border-radius:25px;
+    border-color:transparent;
+  
+}
+.prop{
+    display:flex;
+     
+    
+}
+.incr{
+    cursor: pointer;
+    width:65%;
+    color:#757575;
+    font-size:12px;
+    font-weight:600;
+    letter-spacing:2px;
+    text-transform: uppercase;
+    background-color: #ffd600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aprop{
+    font-size:12px;
+    font-weight:500;
+    width:35%;
+    background-color:  #ffab00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.temo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:80px;
+    background-color:#fafafa;
+    border-bottom:1px solid transparent;
+    box-shadow: 0 2px 2px -2px gray;
+}
+.txt{
+    width:350px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.txt p{
+    text-transform: uppercase;
+    letter-spacing:2px;
+    color:#7e57c2;
+    font-size:12px;
+    font-weight:600;
+}
+.btn-annonce{
+    text-transform: uppercase;
+    letter-spacing:2px;
+    cursor:pointer;
+    width:170px;
+    height:30px;
+    color:#7e57c2;
+    font-size:13px;
+    font-weight:600;
+    background-color:white;
+    border-radius:25px;
+    border:1px solid #7e57c2;
+  
+}
+.bodyone{
+    margin:10px 0px 0px  0px;
+    height:100%;
+}
+@media  screen and (max-width:640px){
+  .temo{
+    flex-direction: column;
+  }
+  .txt{
+    width:270px;
+  }
+}
+
+@media  screen and (max-width:850px) {  
+    .container-exp {
+        background-color:transparent;
+        margin: 70px 0px;
+        padding-left:0px;
+    }
+    .list{
+        display:flex;
+        flex-wrap:wrap;
+        margin-left:-10px;
+    }
+   
+
+}
+@media  screen and (max-width:642px){
+    .list .cl-grey{
+        width:100px;
+    };
+    .list .inp-rchr{
+        width:100px;
+    }
+    .list .filtre{
+        width:100px;
+    }
+    .list .cl-grey1{
+        width:130px;
+    }
+}
+@media  screen and (max-width:514px){
+    .list .cl-grey{
+        width:52px;
+    }
+    .inp-rchr ::placeholder{
+        font-size:11px;
+    }
+    .list .inp-rchr{
+        width:52px;
+    }
+    .list .filtre{
+        width:52px;
+    }
+    .filtre p{
+        font-size: 8px;
+        font-weight:bold;
+    }
+    
+}
+
